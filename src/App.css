@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+ font-family: "Poppins", sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;     
+}
+.Content{
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: fixed;
+    width:90%;
+    background-color: white;
+    min-width: 80%;
+    top: 0;
+    left: 0;
+    z-index: 100;   
+}
+.foodsection
+{
+    display: flex;
+    width:100%;
+    margin-top: 100px;
+}
+.galary{
+    width:120px;   
+}
+.galary img{
+    width:100%;
+} 
+.Items
+{
+    margin: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d10a0a;
+}
+.landingSection
+{
+    padding: 0 120px;
+}
+ /* Chain section stle */
+  .chainsection
+  {
+       
+       display: flex;
+       position: relative;
+       height: auto;
+       overflow-x: hidden;
+  }
+  .vendorBox 
+  { 
+    border-radius: 10px;
+  }
+
+  .vendorBox img
+  {
+       width: 350px;
+       height: 200px;
+       flex: 0 0 auto;
+       margin-right: 30px;
+       object-fit: cover;
+       border-radius: 30px;     
+  }
+  .firmimage
+  {     
+  }
+.firmsection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin:0 auto;
+}
+
+ .firmGroup
+ { 
+ }
+ .firmGroup img{
+    width: 220px;
+       height: 160px;
+       flex: 0 0 auto;
+       margin-right: 30px;
+       object-fit: cover;
+       border-radius: 10px;
+       
+ }
+
+.firmDetails{
+    
+ }
+ #firmoffer
+ {
+    width: 85%;
+    max-width: 85%;
+    position: relative;
+    bottom: 30px;
+    padding-left: 8px;
+    font-size: 1rem;
+    font-weight: 800;
+    background: transparent;
+    background:linear-gradient(to bottom, rgba(50 , 0, 0, 0.08),black);
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+ .firmName
+ {
+    font-weight: bold;
+ }
+.details{
+    color: rgba(71, 65, 65, 0.897);
+    font-size: small;
+}
+/* product section*/
+.productSection
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    margin-top: 100px;
+    
+}
+.productBox{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    padding: 10px 30px;
+}
+.productGroup img
+{
+   width: 100px;
+   border-radius: 8px;
+  
+}
+.addbtn{
+    color:rgb(30, 230, 30);
+    border: 2px solid lightgray;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    bottom: 30px;
+    width:100%;
+    max-width: 80%;
+    margin-left: 10px;
+    border-radius: 7px;
+    
+}
+.cartSummary {
+    padding: 10px;
+    background: #f4f4f4;
+    margin-bottom: 15px;
+  }
+  
+  .cartDetails {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    width: 300px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .quantityControls {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .quantityControls button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background: #f90;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .cartBtn {
+    background: #f90;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.link{
+    color: orangered;
+    text-decoration: none;
+}
+.nameLogo{
+    color:#d10a0a;
+}
+
+.btnscrollsection
+{
+     display: flex;
+     justify-content: flex-end;
+     top: 42px;
+     position: relative;
+     right: 10px;
+}
+.btnscrollsection button{
+    border: none;
+    background: none;
+}
+
+.btn{
+  font-size: large;
+  color: red;
+}
+
+.filterbtn
+{
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: large;
+}
+.filterbtn button{
+    border-radius: 6px;;
+    background: none;
+    border: 2px solid  rgb(216, 201, 201);
+}
+.productSection h3
+{
+   text-align: center;
+   background-color: orangered;
+   box-shadow: 5px 3px 10px gray;
+}
+
+.loaderSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.cartSummary
+{
+    color: #d10a0a;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: fixed;
+    width:60%;
+    background-color: white;
+    margin-right: 30%;
+    margin-left: auto;
+    min-width: 60%;
+    bottom: 0;
+    z-index: 100;   
+}
+/* SignIn.css */
+.signinPanel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  animation: slideIn 0.4s forwards;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 999;
+}
+
+.signinContent {
+  background: white;
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+  animation: contentSlide 0.4s forwards;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes contentSlide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  float: right;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 8px 0;
+  padding: 8px;
+}
+
+form button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media (max-width : 576px)
+{
+     .Content{
+       
+        padding: 0 25px;
+     }
+     .landingSection{
+        padding: 0 20px;
+     }
+     .foodsection{
+       
+     }
+
+     h3{ 
+        font-weight: 600;
+        font-size: medium;
+     }
+     .chainsection{
+    
+        height: 180px;
+     }
+     .vendorBox img
+  {
+       width: 220px;
+       height: 170px;
+       flex: 0 0 auto;
+       margin-right: 20px;
+       object-fit: cover;
+       border-radius: 20px;
+  }
+  .mediaChainSection{
+   
+    margin-top: -30px;
+    margin-bottom: -10px;
+
+  }
+  .firmsection{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#firmoffer
+{
+   max-width: 290px;
+   width:100%;
+}
+
+.firmGroup img
+{
+    width: 300px;
+    height: 180px;
+    margin-right: 5px;
+}
+.productSection{
+    
+    padding: 0 20px;
+}
+.productSection h3
+{
+   text-align: center;
+   background-color: orangered;
+   box-shadow: 0 3px 10px gray;
+}
+.loaderSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartSummary {
+  padding: 15px;
+  background: #f4f4f4;
+  margin-bottom: 20px;
+}
+.cartSummary
+{
+    color: #d10a0a;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: fixed;
+    width:60%;
+    background-color: white;
+    margin-right: 40%;
+    margin-left: auto;
+    min-width: 60%;
+    bottom: 0;
+    z-index: 100;   
+}
+
+}
